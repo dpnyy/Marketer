@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Marketer</string>
+    <string name="login_guest"><![CDATA[<< Login Guest >>]]></string>
+    <string-array name="daftarmap">
+        <item>demo</item>
+    </string-array>
+    <string name="guide">
+        Tata cara belanja di pasar :<br /><br />
+        1.  Sebelum pergi ke pasar yang ingin dituju, ingat atau bila perlu catat apa saja yang ingin dibeli.<br />
+        2.  Perkirakan total harga belanjaan yang akan dibeli, agar tidak berlebihan membawa uang ke pasar tradisional karena suasana yang cukup ramai dan sempit.<br />
+        3.  Sesampainya di pasar, beli lah barang yang posisi toko nya paling dekat dengan kamu terlebih dahulu<br />
+        4.  Kita juga bisa mengunjungi toko yang banyak pembelinya, biasanya itu menandakan bahwa harga barang di toko tersebut murah sehingga banyak peminatnya.<br />
+        5.  Sebelum membeli, sebaiknya tanyakan dahulu harga barang yang ingin dibeli, agar dapat membandingkannya dengan toko yang lain jika berminat.<br />
+        6.  Pilihlah barang yang ingin dibeli dengan teliti agar mendapatkan barang dengan kualitas yang baik.<br />
+        7.  Pastikan penjual menghitung total belanjaanmu dengan benar agar tidak mengalami kerugian, dan segera koreksi jika hitungannya ada yang salah sebelum beranjak pergi dari toko tersebut.
+    </string>
+    <string name="title_activity_guide">guide</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_aboutus">aboutus</string>
+</resources>
