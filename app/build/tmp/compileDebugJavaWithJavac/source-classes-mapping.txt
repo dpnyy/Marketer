@@ -1,0 +1,2 @@
+com/example/marketer/BuildConfig.java
+ com.example.marketer.BuildConfig

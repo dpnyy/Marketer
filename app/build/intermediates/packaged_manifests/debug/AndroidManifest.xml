@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marketer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Marketer" >
+        <activity android:name="com.example.marketer.aboutus" />
+        <activity
+            android:name="com.example.marketer.splashscreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.marketer.login_daftar_guest"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.marketer.Daftar"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.marketer.menu"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.marketer.jendelamap"
+            android:parentActivityName="com.example.marketer.menu"
+            android:windowSoftInputMode="adjustResize" >
+            <meta-data
+                android:name="androd.support.PARENT_ACTIVITY"
+                android:value=".jendelamap" />
+        </activity>
+        <activity
+            android:name="com.example.marketer.note"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.marketer.panduan"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
